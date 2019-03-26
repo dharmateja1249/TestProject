@@ -46,7 +46,20 @@
 		
 		
 	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>myMaven.read</id>
+			<url>https://github.com/dharmateja1249/TestProject</url>
+		</repository>
+	</repositories>
 
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepo.write</id>
+			<url>https://github.com/dharmateja1249/TestProject</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
