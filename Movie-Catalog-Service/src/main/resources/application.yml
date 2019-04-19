@@ -1,0 +1,16 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true 
+    service-url:
+      defaultZone: http://localhost:4444/eureka/
+  instance:
+    hostname: localhost    
+      
+server:
+  port: 3333
+  
+
+spring:
+  application:
+    name: movie-catalog-service
